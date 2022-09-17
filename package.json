@@ -1,0 +1,16 @@
+{
+  "name": "react-modals-manager",
+  "version": "0.1.0",
+  "description": "React Modals Manager",
+  "repository": "git@github.com:bre30kra69cs/react-modals-manager.git",
+  "author": "Andrey Krasovsky <an.krasowsckij@gmail.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build:dev": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  }
+}

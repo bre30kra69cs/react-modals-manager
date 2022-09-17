@@ -1,0 +1,8 @@
+# node
+node_modules
+
+# system
+.DB_store
+
+# build
+dist
