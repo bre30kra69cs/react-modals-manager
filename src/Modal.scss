@@ -1,11 +1,9 @@
-@use '../../design/units';
-
 .Modal {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: units.$z-s;
+  // z-index: units.$z-s;
   position: fixed;
   left: 0;
   top: 0;

@@ -1,5 +1,3 @@
-@use '../../design/units';
-
 .Dialog {
   &--title {
     margin-bottom: 16px;
@@ -11,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    border-radius: units.$radius;
+    // border-radius: units.$radius;
     min-height: 100px;
     max-width: 85vw;
     transition: background-color var(--time-l), opacity var(--time-l);
@@ -60,7 +58,7 @@
     top: 0;
     right: 0;
     padding: 16px;
-    z-index: units.$z-s;
+    // z-index: units.$z-s;
 
     & path {
       fill: var(--color-shared-secondary);
