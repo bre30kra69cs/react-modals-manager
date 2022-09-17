@@ -95,16 +95,13 @@ export declare type ModalProps = {
 
 export declare type DialogProps = ModalProps & {
   size?: 'xs' | 's' | 'm' | 'l';
-  closeIcon?: boolean;
   onIconClose?: () => void;
 };
 
-export declare const createDialog: (manager: Manager) => <T extends Rec<unknown> = Rec<never>>(
+export declare const createDialog: (manager: Manager) => <T extends Rec = Rec<never>>(
   id: string,
   config: T & DialogProps,
 ) => {
   modal: Modal<T & ModalProps & DialogProps>;
-  dialogify: <P extends Rec<unknown> = Rec<never>>(
-    Content: FC<P & T & ModalProps & DialogProps>,
-  ) => FC<P>;
+  dialogify: <P extends Rec = Rec<never>>(Content: FC<P & T & ModalProps & DialogProps>) => FC<P>;
 };

@@ -6,29 +6,18 @@
   top: 0;
   height: 100%;
   width: 100%;
-  animation: fadein var(--time-s);
 
   &__state {
     &-s {
-      // background-color: color.adjust(#000, $alpha: -0.95);
+      background-color: rgba($color: #000, $alpha: 0.05);
     }
 
     &-m {
-      // background-color: color.adjust(#000, $alpha: -0.8);
+      background-color: rgba($color: #000, $alpha: 0.2);
     }
 
     &-l {
-      // background-color: color.adjust(#000, $alpha: -0.5);
+      background-color: rgba($color: #000, $alpha: 0.5);
     }
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
   }
 }

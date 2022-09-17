@@ -4,6 +4,6 @@
 - [ ] stylelint
 - [ ] jest
 - [ ] commit checks
-- [ ] rename css vars
-- [ ] rename animaion
+- [x] rename css vars
+- [x] rename animaion
 - [ ] css modules

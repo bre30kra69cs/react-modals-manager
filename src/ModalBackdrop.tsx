@@ -14,7 +14,7 @@ const b = bem('ModalBackdrop');
 
 export const ModalBackdrop: FC<ModalBackdropProps> = ({state}) => {
   return (
-    <div
+    <section
       className={b('', {
         [`state-${state}`]: true,
       })}

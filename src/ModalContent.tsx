@@ -36,8 +36,8 @@ export const ModalContent: FC<ModalContentProps> = ({
   });
 
   return (
-    <div ref={ref} className={b()}>
+    <section ref={ref} className={b()}>
       {children}
-    </div>
+    </section>
   );
 };

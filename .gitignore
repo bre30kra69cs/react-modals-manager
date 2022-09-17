@@ -7,5 +7,5 @@ node_modules
 # build
 dist
 
-# dev
-dev
+# yarn
+yarn-error.log
