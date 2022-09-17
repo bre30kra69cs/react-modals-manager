@@ -1,0 +1,36 @@
+@use 'sass:color';
+
+@use '../../design/units';
+
+.ModalBackdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  animation: fadein var(--time-s);
+
+  &__state {
+    &-s {
+      background-color: color.adjust(#000, $alpha: -0.95);
+    }
+
+    &-m {
+      background-color: color.adjust(#000, $alpha: -0.8);
+    }
+
+    &-l {
+      background-color: color.adjust(#000, $alpha: -0.5);
+    }
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

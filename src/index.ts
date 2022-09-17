@@ -1,3 +1,2 @@
-console.log('tes');
-
-export {};
+export {createManager} from './createManager';
+export {createDialog} from './createDialog';
